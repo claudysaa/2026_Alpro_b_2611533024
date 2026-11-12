@@ -1,8 +1,13 @@
-<<<<<<< HEAD
 # Name: Claudya Annisa
 # NIM: 2611533024
-=======
-# Name: Claudya Annisa
-# NIM: 2611533024
->>>>>>> 227d915a98d41ebf5340ba90bc4bd924ca1b6155
 # Question 1
+
+name = "CLAUDYA" # replace with your first name in capital letters
+print(name[0])
+print(name[-1])
+print(name[1:4])
+print(name[::2])
+print(name[::-1])
+print(len(name))
+name.lower()
+print(name)
