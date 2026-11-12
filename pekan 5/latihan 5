@@ -1,0 +1,10 @@
+tinggi_3024 = int(input("Masukkan tinggi segitiga: "))
+
+for i_3024 in range(1, tinggi_3024 + 1):
+    for j_3024 in range(tinggi_3024 - i_3024):
+        print(" ", end="")
+
+    for k_3024 in range(i_3024):
+        print("* ", end="")
+
+    print()
